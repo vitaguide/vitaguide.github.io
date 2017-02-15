@@ -8,17 +8,17 @@ button.consolepstvbutton {
   font-size: 24px;
   padding: 12px;
   background: #0004B7;
-  background-image: url(pstvconsole.png);
+  background-image: url(pstvconsole.jpg);
     background-repeat: no-repeat;
  
   
   }
 
-button.consolpsvitabbutton {
+button.consolpsvitabutton {
   font-size: 24px;
   padding: 12px;
   background: #0004B7;
-  background-image: url(psvitaconsole.png);
+  background-image: url(psvitaconsole.jpg);
     background-repeat: no-repeat;
 
   }
