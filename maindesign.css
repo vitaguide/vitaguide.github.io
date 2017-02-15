@@ -7,7 +7,7 @@ background: #B2B2B2;
 button.consolepstvbutton {
   font-size: 24px;
   padding: 12px;
-  background: #000010;
+  background: #65A8D4;
 
   
   }
@@ -15,12 +15,12 @@ button.consolepstvbutton {
 button.consolpsvitabutton {
   font-size: 24px;
   padding: 12px;
-  background: #000010;
+  background: #65A8D4;
  
   }
 
 button.getstartedbutton{
-  border: 2px solid #AD235E;
+  border: 2px solid #55AA55;
   border-radius: 100px;
   font-size: 24px;
   padding: 12px;
@@ -38,6 +38,6 @@ button.firmwarebutton {
   }
 
 body {
-  background: #76B8CF;
+  background: #76B8DA;
   color: white;
   }
