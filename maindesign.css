@@ -1,11 +1,32 @@
 button  {
 font-size: 24px;
 padding: 12px;
-background: #DDDDDD;
-}
+background: #B2B2B2;
+  }
 
-button.selection-button  {
-font-size: 24px;
-padding: 12px;
-background: #02A921;
-}
+button.consolebutton {
+  font-size: 24px;
+  padding: 12px;
+  background: #0004B7;
+  }
+
+button.getstartedbutton{
+  
+  font-size: 24px;
+  padding: 12px;
+  background: #FF0050;
+  
+  }
+
+
+button.firmwarebutton {
+  font-size: 24px;
+  padding: 12px;
+  background: #0000FF;
+  
+  }
+
+body {
+  background: #D3D3D3;
+  
+  }
