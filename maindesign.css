@@ -4,10 +4,23 @@ padding: 12px;
 background: #B2B2B2;
   }
 
-button.consolebutton {
+button.consolepstvbutton {
   font-size: 24px;
   padding: 12px;
   background: #0004B7;
+  background-image: url(pstvconsole.png);
+    background-repeat: no-repeat;
+ 
+  
+  }
+
+button.consolpsvitabbutton {
+  font-size: 24px;
+  padding: 12px;
+  background: #0004B7;
+  background-image: url(psvitaconsole.png);
+    background-repeat: no-repeat;
+
   }
 
 button.getstartedbutton{
