@@ -1,0 +1,11 @@
+button  {
+font-size: 24px;
+padding: 12px;
+background: #DDDDDD;
+}
+
+button.selection-button  {
+font-size: 24px;
+padding: 12px;
+background: #02A921;
+}
