@@ -8,7 +8,7 @@ button.consolepstvbutton {
   font-size: 24px;
   padding: 12px;
   background: #0004B7;
-  background-image: url('https://vitaguide.github.io/pstvconsole.jpg');
+  background-image: url('https://vitaguide.github.io/images/pstvconsole.jpg');
     background-repeat: no-repeat;
  
   
@@ -18,7 +18,7 @@ button.consolpsvitabutton {
   font-size: 24px;
   padding: 12px;
   background: #0004B7;
-  background-image: url('https://vitaguide.github.io/psvita.png');
+  background-image: url('https://vitaguide.github.io/images/psvita.png');
     background-repeat: no-repeat;
 
   }
