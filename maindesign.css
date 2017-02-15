@@ -7,20 +7,16 @@ background: #B2B2B2;
 button.consolepstvbutton {
   font-size: 24px;
   padding: 12px;
-  background: #0004B7;
-  background-image: url('https://vitaguide.github.io/images/pstvconsole.jpg');
-    background-repeat: no-repeat;
- 
+  background: #000010;
+
   
   }
 
 button.consolpsvitabutton {
   font-size: 24px;
   padding: 12px;
-  background: #0004B7;
-  background-image: url('https://vitaguide.github.io/images/psvita.png');
-    background-repeat: no-repeat;
-
+  background: #000010;
+ 
   }
 
 button.getstartedbutton{
@@ -28,7 +24,8 @@ button.getstartedbutton{
   border-radius: 100px;
   font-size: 24px;
   padding: 12px;
-  background: #FF0050;
+  background: #339933;
+  width: 100%;
   
   }
 
@@ -41,6 +38,6 @@ button.firmwarebutton {
   }
 
 body {
-  background: #D3D3D3;
-  
+  background: #76B8CF;
+  color: white;
   }
