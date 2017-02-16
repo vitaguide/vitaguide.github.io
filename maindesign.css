@@ -50,6 +50,8 @@ body {
     font-weight: bold;
     font-size: 29px;
     color: #999966;
+    background: #5698BA;
+    width: 100%
 }
 
 
@@ -57,4 +59,6 @@ body {
     font-family: "serif" , "Times" , "Times New Roman";
     font-weight: normal;
     font-size: 28px;
+    background: #66A8CA;
+    width: 100%;
 }
