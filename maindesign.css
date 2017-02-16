@@ -43,3 +43,9 @@ body {
   background: #76B8DA;
   color: white;
   }
+
+summary{
+    font-family: "serif" , "Times" , "Times New Roman";
+    font-weight: bold;
+    font-size: 250%;
+}
