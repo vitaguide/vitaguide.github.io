@@ -42,10 +42,19 @@ button.firmwarebutton {
 body {
   background: #76B8DA;
   color: white;
+ width: 100%;
   }
 
-summary{
+.tutorialsummary{
     font-family: "serif" , "Times" , "Times New Roman";
     font-weight: bold;
-    font-size: 250%;
+    font-size: 29px;
+    color: #999966;
+}
+
+
+.tutorialinstructions{
+    font-family: "serif" , "Times" , "Times New Roman";
+    font-weight: normal;
+    font-size: 28px;
 }
