@@ -9,52 +9,71 @@
 
 </head>
 <body>
-<h1 style="text-align:left"> Step 1: </h1>
--- Temporary Start --
-After preparing visit this site and click install on your 3.60 psvita <b><a href="http://henkaku.xyz">http://henkaku.xyz</a></b>
+<h1 style="text-align:left"> Step 1: Setting up HENkaku</h1>
+<b>-- Temporary Start --
+<br>
 
-<br><br><b>
-
-
-TODO: Add henkaku stuff here
-
-TODO: Add henkaku offline instructions here
+TODO: Add henkaku offline instructions here<br>
 -- Temporary End --
 
-
+</b>
 <br>
 <b><a href="psvtutorials.html" />Now that your finished click here to see some tutorials about Homebrew and stuff!</a></b>
 
-<h3 style="text-align:left">Preparation </h3>
-<p></p>
-<h4 style="text-align:left"><b> Part I: Requirements</b>
-</h4>
-<p>
-<ul type="disc">
-<li>A PS Vita running firmware 3.60</li>
-<li>The latest release of <a href='https://github.com/henkaku/offline-installer/releases'>HENkaku Offline Installer</a></li>
-<li>The latest release of <a href='https://github.com/TheOfficialFloW/VitaShell/releases'>VitaShell</a></li>
-<li>An active Wi-Fi connection</li>
-<li>An FTP client such as <a href='https://filezilla-project.org'>FileZilla</a></li>
-<li> *snip* </li>
-<li>Under 'DNS Settings', choose 'Manual'</li>
-<li>Set 'Primary DNS' to '212.47.229.76'.</li>
-<li>Leave 'Secondary DNS' blank.</li>
-<li>Make sure 'Proxy Server' is set to 'Do Not Use'.</li>
-<li>Press OK and back out to the main settings screen.</li>
-</ol></p>
-<h4 style="text-align:left"><b> Part II: Updating to 3.60</b></h4>
-<p>
-<ol type="1">
-<li>Select 'System Update'.</li>
-<li>Select 'Update Using Wi-Fi'</li>
-<li>If you get an error saying your system is up to date, that means either your Vita is on 3.60 already, or it is on a firmware > 3.60 and is not supported by HENkaku.</li>
-<li><b> Make sure that the update says '3.60 (変革 Compatible)'</b>, if it says anything else, make sure you followed <b>ALL</b> the Steps!</li>
-<li>After ensuring you are updating to "3.60 (変革 Compatible)", proceed with the steps on screen to update.</li>
-<li>You can now go back into your Advanced Wi-Fi settings and change your DNS settings back, <b>however</b>, if you leave the DNS Settings alone after updating, you get an aditional update blocker so you wont accidentally update to > 3.60.</li>
-</ol>
-<br>
-<a href='/psv360.html'> Continue to Step I: Installing HENkaku</a>
+<h4 style="text-align:left"><b> Part I: Requirements</b></h4>
+    <p>
+        <ul type="disc">
+            <li>A PS Vita running firmware 3.60</li>
+            <li>The latest release of <a href='https://github.com/henkaku/offline-installer/releases'>HENkaku Offline Installer</a> (The VPK File).</li>
+            <li>The latest release of <a href='https://github.com/TheOfficialFloW/VitaShell/releases'>VitaShell</a> (The VPK File).</li>
+            <li>An active Wi-Fi connection.</li>
+            <li>An FTP client such as <a href='https://filezilla-project.org'>FileZilla</a>.</li>
+        </ul>
+    </p>
+<h4 style="text-align:left"><b> Part II: Running and Installing HENkaku</b></h4>
+    <p>
+        <ol type="1">
+            <li>Open the PS Vita's Web Browser and go to <a href='http://henkaku.xyz'>http://henkaku.xyz</a>.</li>
+            <li>Click the orange 'Install' button.</li>
+            <li>Click the next orange 'Install button' (This will run the exploit and install molecularShell).</li>
+            <ul type="disc">
+                <li>Installation can take anywhere from 15 seconds to a minute.</li>
+                <li>If any error message appears or your console freezes, see the <a href="/troubleshooting.html">troubleshooting page</a>.</li>
+            </ul>
+            <li>When the Installation of HENkaku and molecularShell is finished, you will be brought back to the LiveArea screen.</li>
+        </ol>
+        <br>
+    </p>
+<h4 style="text-align:left"><b> Part III: Installing VitaShell & Henkaku Offline Installer</b></h4>
+    <p>
+        <ol type="1">
+            <li>Open molecularShell.</li>
+            <li>Press Start to open the HENkaku Settings.</li>
+            <li>Navigate to 'Enable unsafe homebrew' and press X.</li>
+                <ul type="disc">
+                    <li><b>WARNING: WHEN INSTALLING VPKs BE CAREFUL! A MISUSED, MISCONFIGURED, OR MALICIOUS VPK CAN PERMANENTLY DAMAGE YOUR DEVICE!</b></li>
+                </ul>
+            <li>Dismiss the warning by pressing X.</li>
+            <li>Exit the HENkaku settings menu by pressing Circle.</li>
+            <li>Press the PS button to go back to the LiveArea screen and close molecularShell.</li>
+            <li>Relaunch molecularShell.</li>
+            <li>Press Select to start the FTP Server.</li>
+            <li>Connect to your Vita using your FTP client and navigate to 'ux0:'.</li>
+            <li>Copy the 'offlineinstaller.vpk' file to ux0:.</li>
+            <li>Copy the 'VitaShell.vpk' file that you downloaded earlier to ux0:.</li>
+            <li>Press Circle with the FTP server dialog open to close the FTP Server.</li>
+            <li>Navigate to ux0: within molecularShell.</li>
+            <li>Select 'VitaShell.vpk' and press X.</li>
+            <li>Press X to install VitaShell.</li>
+            <li>Press X at the warning box.</li>
+            <li>Select 'offlineinstaller.vpk' and press X.</li>
+            <li>Press X to install offlineinstaller.</li>
+            <li>Press X at the warning box.</li>
+            <li>Exit molecularShell</li>
+        </ol>
 </p>
+<br>
+<a href='/epsphax.html'>Continue to Step 2: Installing Adrenaline ePSP CFW</a>
+
 </body> 
 </html>
