@@ -52,6 +52,7 @@ body {
     color: #999966;
     background: #5698BA;
     width: 100%
+    word-wrap: break-word;
 }
 
 
@@ -61,4 +62,5 @@ body {
     font-size: 28px;
     background: #66A8CA;
     width: 100%;
+    word-wrap: break-word;
 }
