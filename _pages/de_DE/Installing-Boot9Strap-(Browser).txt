@@ -1,0 +1,54 @@
+---
+title: "Installing boot9strap (Browser)" #
+lang: de
+permalink: /installing-boot9strap-(browser).html
+---
+
+Falls du bereits deinen 3DS zuvor gehackt hast und eine EmuNAND basierte CFW installiert ist: Diese Anleitung behandelt nur das SysNAND und alle Schritte sollten nur innerhalb des SysNANDs ausgeführt/angewendet werden. Beachte, dass die Begriffe EmuNAND und RedNAND sich auf leicht unterschiedliche Implementierungen [des selben Konzepts](http://3dbrew.org/wiki/NAND_Redirection) beziehen.
+{: .notice--info}
+
+Um die [Magnet-Links](https://en.wikipedia.org/wiki/Magnet_URI_scheme) auf dieser Seite zu nutzen, brauchst du einen Torrent-Programm wie [Deluge](http://dev.deluge-torrent.org/wiki/Download)
+{: .notice--success}
+
+#### Was du brauchst
+
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest)
+* Das Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+
+#### Anleitung
+
+##### Abschnitt I - Vorbereitung
+
+1. Schalte dein Gerät aus
+1. Stecke deine SD-Karte in deinen Computer
+1. Kopiere _die Inhalte_ des `starter` Ordners in `starter.zip` auf das Stammverzeichnis von deiner SD-Karte
+1. Create a folder named `boot9strap` on the root of your SD card
+1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
+1. Copy `SafeB9SInstaller.dat` and `Launcher.dat` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Stecke deine SD-Karte nun wieder in deinen 3DS
+1. Schalte dein Gerät an
+
+##### Section II - Launching SafeB9SInstaller
+
+1. Starte den Browser und besuche eine der folgenden URLs auf deinem Gerät
+  + `https://dukesrg.github.io/?SafeB9SInstaller.dat`
+  + `http://go.gateway-3ds.com/`
+  + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
+  + `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
+  + Stelle sicher, dass du jede einzelne URL probierst, falls die Erste nicht funktioniert (auf manchen Versionen funktioniert die Erste nicht, und auf manchen anderen funktionieren die letzten drei wiederum nicht)
+  + [Folge dieser Problembehebungs-Anleitung](troubleshooting#ts_browser), falls du einen Fehler erhältst
+1. If the exploit was successful, you will have booted into SafeB9SInstaller
+
+##### Section III - Installing boot9strap
+
+1. Wait for all safety checks to complete
+1. When prompted, input the key combo given to install boot9strap
+1. Once it has completed, press (A) to reboot your device
+1. Your device will boot into boot9strap, then shutdown automatically because it does not yet have a payload to launch
+  + Your device will not boot until you continue with the next page's instructions; do not panic, this is normal
+
+___
+
+Continue to [Finalizing Setup](finalizing-setup)
+{: .notice--primary}
